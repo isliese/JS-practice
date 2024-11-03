@@ -84,13 +84,13 @@ sayHelloo(nameOfPerson)
 
 // null은 아예 '비어있음을 정의'해버리는것, undefinde는 변수에 값을 부여하지 않은 상태
 
-const player = {
+const players = {
     name: "Isla",
     age: "19"
 };
 
-console.log(player);
-player.name = "Chanran";
+console.log(players);
+players.name = "Chanran";
 
 
 
