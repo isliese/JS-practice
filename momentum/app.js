@@ -94,7 +94,7 @@ players.name = "Chanran";
 
 
 
-
+// 계산기 만들기 
 const calculator = {
     add: function (a,b) { // 더하기는 ,로 표시
         console.log(a, b);
@@ -118,3 +118,13 @@ const calculator = {
  calculator.div(4,5);
  calculator.multi(6,7);
  calculator.power(9*2);
+
+ // Conditionals
+ const age = prompt("How old are you"); // 파이썬 input()이랑 똑같음
+ console.log(typeof age) // typeof를 하고, 한 칸 띄우고, variable을 적으면 그 변수의 데이터타입을 알 수 있음
+ // input으로 받는건 무조건 string. 아무것도 안 적어도 string.
+// NaN임 (Not a Number.)
+
+ // type 변환 (parseInt 내장함수 사용)
+parseInt("15")
+
