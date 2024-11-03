@@ -120,7 +120,7 @@ const calculator = {
  calculator.power(9*2);
 
  // Conditionals
- const age = prompt("How old are you"); // 파이썬 input()이랑 똑같음
+ const ageQuestion = prompt("How old are you"); // 파이썬 input()이랑 똑같음
  console.log(typeof age) // typeof를 하고, 한 칸 띄우고, variable을 적으면 그 변수의 데이터타입을 알 수 있음
  // input으로 받는건 무조건 string. 아무것도 안 적어도 string.
 // NaN임 (Not a Number.)
@@ -128,3 +128,16 @@ const calculator = {
  // type 변환 (parseInt 내장함수 사용)
 parseInt("15")
 
+// 데이터 타입 확인하는 내장 함수
+console.log(isNaN(age));
+
+// 조건문
+const age = parseInt(prompt("How old are you?"))
+
+console.log(isNaN(age));
+
+if(isNaN(age)) {
+    console.log("Please write a number");
+} else {
+    console.log("Thank you for writing your age");
+}
