@@ -1,5 +1,3 @@
-// 자바스크립트는 HTML을  불러오는 것이다.
-
 // alert("hi"); // function임 
 // console.log(54545454);
 
