@@ -25,11 +25,15 @@ console.dir(title);
 // title.style.color = "blue";
 
 // 이벤트 리스너 함수
+// function handleTitleClick() {
+//     console.log("Title was clicked!")
+// };
+
+// title.addEventListener("click", handleTitleClick); // 이벤트가 발생하면 실행할 함수를 넘겨줄 수 있음
+
+
 function handleTitleClick() {
-    console.log("Title was clicked!")
-};
+    title.style.color = "blue"
+}
 
 title.addEventListener("click", handleTitleClick);
-
-
-
