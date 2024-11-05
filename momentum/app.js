@@ -92,9 +92,13 @@ const players = {
 console.log(players);
 players.name = "Chanran";
 
+<<<<<<< HEAD
+// 계산기 만들기 
+=======
 
 
 // 계산기 만들기 
+>>>>>>> 86204f2ecdf0c30388d17a94329ed8dc56d1e378
 const calculator = {
     add: function (a,b) { // 더하기는 ,로 표시
         console.log(a, b);
